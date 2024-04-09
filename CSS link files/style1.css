@@ -1,0 +1,82 @@
+#d1
+{
+
+    border: 2px solid red;
+    
+
+}
+
+#s1{
+
+   border: 2px solid black;
+
+}
+
+.b1{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 75px;
+
+     margin-left: 42px;
+
+
+}
+
+.b2{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+
+
+}
+
+.b3{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.a1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+
+    margin-top: 10px;
+    margin-left: 250px;
+
+}
+
+.a2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 37px;
+
+    margin-top: 10px;
+    margin-left: 250px;
+    
+}
+
+.a3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right:37px;
+    
+    margin-top: 10px;
+    margin-left: 250px;
+    
+}
+
+#ball{
+
+    margin-left: 45%;
+}

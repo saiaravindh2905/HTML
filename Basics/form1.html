@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+
+</head>
+
+<body>
+  <!--  <input type="radio" >male <br>
+    <input type="file">  <br>
+    <input type="button"><br>
+    <input type="checkbox"> English     <input type="checkbox"> Tamil-->
+     
+   <!-- <img src="../Images/nature.jpg" alt="" height="550px" width="1000px">-->
+     <form action="" autocomplete="on"  >
+       
+      
+      <label for="Username">Username</label><br>
+       <input type="text" id="Username" placeholder="Enter Username" name="username" value="Sai Aravindh" autofocus readonly><br><br>
+       
+       
+       <label for="mail">Email Id</label><br>
+       <input type="email" id="mail" placeholder="Enter mail@id" name="ml" required
+        pattern="[A-Za-z\3]{3.}"
+      
+       ><br><br>
+       
+       
+       <label for="ps">Password</label><br>
+       <input type="password" id="ps"  placeholder="password" name="pw" required
+       pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[~!@#$%^&*])(?=.*\d)(4,16)"
+       ><br><br>
+      
+       <label for="pnno">Ph Number</label><br>
+       <input type="number" id="pnno" placeholder="Enter Phone number" name="pn" required
+       pattern="[6-9](1)[0-9](9)" maxlength="10"><br><br>
+
+       
+       
+       <label for="addr">Address</label><br>
+       <textarea name="" id="addr" cols="15" rows="5" name="addr" disabled></textarea><br><br>
+       
+       
+       <label for="">Age</label>
+       <input type="number" placeholder="Enter age" name="age" required
+       pattern=""><br><br>
+
+      <label for="">Date of Birth</label>
+       <input type="date"><span></span><br><br>
+
+
+       <label for="">Gender :</label>
+       <input type="radio" name="gen" value="male"><span>Male</span>
+       <input type="radio" name="gen" value="female"><span>Female</span>
+       <input type="radio" name="gen" value="others"><span>Other</span><br><br>
+
+       <label for="">Language : </label>
+       <input type="checkbox" name="lan" value="english"><span>English</span>
+       <input type="checkbox" name="lan" value="tamil"><span>Tamil</span>
+       <input type="checkbox" name="lan" value="malayalam"><span>Malayalam</span>
+       <input type="checkbox" name="lan" value="telegu"><span>Telugu</span>
+       <input type="checkbox" name="lan" value="kanada"><span>Kanada</span><br>
+
+       <select name="Language" id="">
+         <option value="Html">Html</option>
+         <option value="Css">Css</option>
+         <option value="Js">Js</option>
+         <option value="J2EE">J2EE</option>
+         <option value="React Js">React Js</option>
+         <option value="Spring">Spring</option></select><br><br>
+       
+         <label for="">Skill : </label>
+         <input type="text" name="program" placeholder="" list="data">
+          <datalist id = "data">
+            <option value="Html">Html</option>
+            <option value="Css">Css</option>
+            <option value="Js">Js</option>
+            <option value="J2EE">J2EE</option>
+            <option value="React Js">React Js</option>
+            <option value="Spring">Spring</option></select><br><br>
+          </datalist>
+       
+       
+       <br><br><input type="submit"> &nbsp;&nbsp; <input type="reset">
+
+       
+
+       <!--   comments -->
+
+
+     </form>
+
+    
+
+</body>
+
+</html>
